@@ -1,0 +1,21 @@
+class add{
+  public int fnum;
+  public int snum;
+  public int ans;
+  add(int a,int b){
+    this.fnum=a;
+    this.snum=b;
+  }
+  int addMethod(){
+    this.ans=this.fnum+this.snum;
+    return this.ans;
+  }
+}
+public MainClass{
+  public static void main(String args[]){
+    add obj=new add();
+    System.out.println("Value for first and second number ");
+    obj.add(10,20);
+    System.out.println("Answer is: "+obj.addMethod());
+  }
+}
